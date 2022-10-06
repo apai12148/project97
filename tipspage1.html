@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tips Page</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<div class="container">
+<button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+	<center>
+		<h1 class="header">	
+				Welcome To Photography Helper!
+		</h1>
+		<h3 id = "user_name"class="color_white"></h3>
+		<br>
+        <br>
+			<h2>Lighting</h2>
+            <br>
+            <h3>The word photography literally means "drawing with light". It comes from the greek words phos and graphe. When taking photos you should always remember the five characteristics of light: direction, intensity, color, contrast, and hardness.</h3>
+            <br>
+            <br>
+            <button id="button_next" class="btn btn-success" onclick="Next()">Next</button>
+	</center>
+</div>
+<script src="tipspage.js"></script>
+</body>
+</html>
